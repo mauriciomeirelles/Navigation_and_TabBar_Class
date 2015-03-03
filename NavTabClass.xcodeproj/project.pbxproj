@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22716D8F1AA5F0F8000BEC6A /* ViewControllerModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 22716D8E1AA5F0F8000BEC6A /* ViewControllerModal.m */; };
+		227E89491AA4D735008098D6 /* ImageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 227E89481AA4D735008098D6 /* ImageDetailViewController.m */; };
+		22C97DB81AA4D3C900BDFB48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C97DB71AA4D3C900BDFB48 /* main.m */; };
+		22C97DBB1AA4D3C900BDFB48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C97DBA1AA4D3C900BDFB48 /* AppDelegate.m */; };
+		22C97DBE1AA4D3C900BDFB48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C97DBD1AA4D3C900BDFB48 /* ViewController.m */; };
+		22C97DC11AA4D3C900BDFB48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C97DBF1AA4D3C900BDFB48 /* Main.storyboard */; };
+		22C97DC31AA4D3C900BDFB48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C97DC21AA4D3C900BDFB48 /* Images.xcassets */; };
+		22C97DC61AA4D3C900BDFB48 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22C97DC41AA4D3C900BDFB48 /* LaunchScreen.xib */; };
+		22C97DD21AA4D3C900BDFB48 /* NavTabClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C97DD11AA4D3C900BDFB48 /* NavTabClassTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22C97DCC1AA4D3C900BDFB48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C97DAA1AA4D3C900BDFB48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C97DB11AA4D3C900BDFB48;
+			remoteInfo = NavTabClass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22716D8D1AA5F0F8000BEC6A /* ViewControllerModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerModal.h; sourceTree = "<group>"; };
+		22716D8E1AA5F0F8000BEC6A /* ViewControllerModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerModal.m; sourceTree = "<group>"; };
+		227E89471AA4D735008098D6 /* ImageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDetailViewController.h; sourceTree = "<group>"; };
+		227E89481AA4D735008098D6 /* ImageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDetailViewController.m; sourceTree = "<group>"; };
+		22C97DB21AA4D3C900BDFB48 /* NavTabClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavTabClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C97DB61AA4D3C900BDFB48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C97DB71AA4D3C900BDFB48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22C97DB91AA4D3C900BDFB48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22C97DBA1AA4D3C900BDFB48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22C97DBC1AA4D3C900BDFB48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22C97DBD1AA4D3C900BDFB48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22C97DC01AA4D3C900BDFB48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22C97DC21AA4D3C900BDFB48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22C97DC51AA4D3C900BDFB48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		22C97DCB1AA4D3C900BDFB48 /* NavTabClassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavTabClassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C97DD01AA4D3C900BDFB48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C97DD11AA4D3C900BDFB48 /* NavTabClassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavTabClassTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22C97DAF1AA4D3C900BDFB48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C97DC81AA4D3C900BDFB48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22C97DA91AA4D3C900BDFB48 = {
+			isa = PBXGroup;
+			children = (
+				22C97DB41AA4D3C900BDFB48 /* NavTabClass */,
+				22C97DCE1AA4D3C900BDFB48 /* NavTabClassTests */,
+				22C97DB31AA4D3C900BDFB48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22C97DB31AA4D3C900BDFB48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22C97DB21AA4D3C900BDFB48 /* NavTabClass.app */,
+				22C97DCB1AA4D3C900BDFB48 /* NavTabClassTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22C97DB41AA4D3C900BDFB48 /* NavTabClass */ = {
+			isa = PBXGroup;
+			children = (
+				22C97DB91AA4D3C900BDFB48 /* AppDelegate.h */,
+				22C97DBA1AA4D3C900BDFB48 /* AppDelegate.m */,
+				22C97DBC1AA4D3C900BDFB48 /* ViewController.h */,
+				22C97DBD1AA4D3C900BDFB48 /* ViewController.m */,
+				22C97DBF1AA4D3C900BDFB48 /* Main.storyboard */,
+				22716D8D1AA5F0F8000BEC6A /* ViewControllerModal.h */,
+				22716D8E1AA5F0F8000BEC6A /* ViewControllerModal.m */,
+				22C97DC21AA4D3C900BDFB48 /* Images.xcassets */,
+				22C97DC41AA4D3C900BDFB48 /* LaunchScreen.xib */,
+				22C97DB51AA4D3C900BDFB48 /* Supporting Files */,
+				227E89471AA4D735008098D6 /* ImageDetailViewController.h */,
+				227E89481AA4D735008098D6 /* ImageDetailViewController.m */,
+			);
+			path = NavTabClass;
+			sourceTree = "<group>";
+		};
+		22C97DB51AA4D3C900BDFB48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22C97DB61AA4D3C900BDFB48 /* Info.plist */,
+				22C97DB71AA4D3C900BDFB48 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22C97DCE1AA4D3C900BDFB48 /* NavTabClassTests */ = {
+			isa = PBXGroup;
+			children = (
+				22C97DD11AA4D3C900BDFB48 /* NavTabClassTests.m */,
+				22C97DCF1AA4D3C900BDFB48 /* Supporting Files */,
+			);
+			path = NavTabClassTests;
+			sourceTree = "<group>";
+		};
+		22C97DCF1AA4D3C900BDFB48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22C97DD01AA4D3C900BDFB48 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22C97DB11AA4D3C900BDFB48 /* NavTabClass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C97DD51AA4D3C900BDFB48 /* Build configuration list for PBXNativeTarget "NavTabClass" */;
+			buildPhases = (
+				22C97DAE1AA4D3C900BDFB48 /* Sources */,
+				22C97DAF1AA4D3C900BDFB48 /* Frameworks */,
+				22C97DB01AA4D3C900BDFB48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavTabClass;
+			productName = NavTabClass;
+			productReference = 22C97DB21AA4D3C900BDFB48 /* NavTabClass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22C97DCA1AA4D3C900BDFB48 /* NavTabClassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C97DD81AA4D3C900BDFB48 /* Build configuration list for PBXNativeTarget "NavTabClassTests" */;
+			buildPhases = (
+				22C97DC71AA4D3C900BDFB48 /* Sources */,
+				22C97DC81AA4D3C900BDFB48 /* Frameworks */,
+				22C97DC91AA4D3C900BDFB48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22C97DCD1AA4D3C900BDFB48 /* PBXTargetDependency */,
+			);
+			name = NavTabClassTests;
+			productName = NavTabClassTests;
+			productReference = 22C97DCB1AA4D3C900BDFB48 /* NavTabClassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22C97DAA1AA4D3C900BDFB48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = BEPiD;
+				TargetAttributes = {
+					22C97DB11AA4D3C900BDFB48 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					22C97DCA1AA4D3C900BDFB48 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 22C97DB11AA4D3C900BDFB48;
+					};
+				};
+			};
+			buildConfigurationList = 22C97DAD1AA4D3C900BDFB48 /* Build configuration list for PBXProject "NavTabClass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22C97DA91AA4D3C900BDFB48;
+			productRefGroup = 22C97DB31AA4D3C900BDFB48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22C97DB11AA4D3C900BDFB48 /* NavTabClass */,
+				22C97DCA1AA4D3C900BDFB48 /* NavTabClassTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22C97DB01AA4D3C900BDFB48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C97DC11AA4D3C900BDFB48 /* Main.storyboard in Resources */,
+				22C97DC61AA4D3C900BDFB48 /* LaunchScreen.xib in Resources */,
+				22C97DC31AA4D3C900BDFB48 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C97DC91AA4D3C900BDFB48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22C97DAE1AA4D3C900BDFB48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C97DBE1AA4D3C900BDFB48 /* ViewController.m in Sources */,
+				22C97DBB1AA4D3C900BDFB48 /* AppDelegate.m in Sources */,
+				22C97DB81AA4D3C900BDFB48 /* main.m in Sources */,
+				22716D8F1AA5F0F8000BEC6A /* ViewControllerModal.m in Sources */,
+				227E89491AA4D735008098D6 /* ImageDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C97DC71AA4D3C900BDFB48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C97DD21AA4D3C900BDFB48 /* NavTabClassTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22C97DCD1AA4D3C900BDFB48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C97DB11AA4D3C900BDFB48 /* NavTabClass */;
+			targetProxy = 22C97DCC1AA4D3C900BDFB48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22C97DBF1AA4D3C900BDFB48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C97DC01AA4D3C900BDFB48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22C97DC41AA4D3C900BDFB48 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C97DC51AA4D3C900BDFB48 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22C97DD31AA4D3C900BDFB48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22C97DD41AA4D3C900BDFB48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22C97DD61AA4D3C900BDFB48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NavTabClass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22C97DD71AA4D3C900BDFB48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NavTabClass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22C97DD91AA4D3C900BDFB48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NavTabClassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavTabClass.app/NavTabClass";
+			};
+			name = Debug;
+		};
+		22C97DDA1AA4D3C900BDFB48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NavTabClassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavTabClass.app/NavTabClass";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22C97DAD1AA4D3C900BDFB48 /* Build configuration list for PBXProject "NavTabClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C97DD31AA4D3C900BDFB48 /* Debug */,
+				22C97DD41AA4D3C900BDFB48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C97DD51AA4D3C900BDFB48 /* Build configuration list for PBXNativeTarget "NavTabClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C97DD61AA4D3C900BDFB48 /* Debug */,
+				22C97DD71AA4D3C900BDFB48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C97DD81AA4D3C900BDFB48 /* Build configuration list for PBXNativeTarget "NavTabClassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C97DD91AA4D3C900BDFB48 /* Debug */,
+				22C97DDA1AA4D3C900BDFB48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22C97DAA1AA4D3C900BDFB48 /* Project object */;
+}
